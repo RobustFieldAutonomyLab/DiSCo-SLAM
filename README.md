@@ -14,7 +14,7 @@
   cd LIO-SAM/src
   git clone git@github.com:RobustFieldAutonomyLab/DiSCo-SLAM.git
   ```
-- Code from [Scan Context]((https://github.com/irapkaist/scancontext)) is u[s]()ed for feature description.
+- Code from [Scan Context]((https://github.com/irapkaist/scancontext)) is used for feature description.
 - We use code from [PCM](https://github.com/lajoiepy/robust_distributed_mapper/tree/d609f59658956e1b7fe06c786ed7d07776ecb426/cpp/src/pairwise_consistency_maximization) 
 for outlier detection.
 
