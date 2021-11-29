@@ -6,7 +6,7 @@
 
 ## 
  - Here we provide a distributed multi-robot SLAM example for 3 robots, intended for use with the two datasets provided below.
- - The local SLAM used in our project is [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM), please download [the modified version of LIO-SAM](https://github.com/yeweihuang/LIO-SAM.git), and add the DiSCo-SKAM folder into ```LIO-SAM\src```.
+ - The local SLAM used in our project is [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM), please download [the modified version of LIO-SAM](https://github.com/yeweihuang/LIO-SAM.git), and add the DiSCo-SLAM folder into ```LIO-SAM\src```.
  ```
   ├──LIO-SAM
      ├── ...
