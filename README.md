@@ -2,7 +2,7 @@
 
 **DiSCo-SLAM is a novel framework for distributed, multi-robot SLAM intended for use with 3D LiDAR observations. The framework is the first to use the lightweight Scan Context descriptor for multi-robot SLAM, permitting a data-efficient exchange of LiDAR observations among robots. Additionally, our framework includes a two-stage global and local optimization framework for distributed multi- robot SLAM which provides stable localization results that are resilient to the unknown initial conditions that typify the search for inter-robot loop closures.**
 
-<p align="center"><img src="doc/pipeline.pdf" width=900></p>
+<p align="center"><img src="doc/pipeline.jpeg" width=900></p>
 
 ## 
  - Here we provide a distributed multi-robot SLAM example for 3 robots, intended for use with the two datasets provided below.
