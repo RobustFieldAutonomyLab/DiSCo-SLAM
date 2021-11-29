@@ -1,0 +1,24 @@
+mapfusion:
+    scancontext:
+        knn_feature_dim: 16
+        max_range: 30
+        num_sector: 60
+        num_nearest_matches: 50
+        num_match_candidates: 1
+        #vertial_axis: #should be x/y/z
+
+    interRobot:
+        #topic
+        sc_topic: "context"
+        sc_frame: "base_link"
+        local_topic: "lio_sam/mapping/cloud_info"
+
+        #thres
+        loop_threshold: 0.2
+        pcm_threshold: 20
+        icp_threshold: 3
+        loop_frame_threshold: 10 #frames
+        pcm_start_threshold: 5   # 5 for best result, 2 for work in harsh environment
+
+        robot_initial: jackal0
+        use_position_search: false #use position search may introduce more global loop closure, but spend more time for candidate checking
