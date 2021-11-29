@@ -1,14 +1,14 @@
 # DiSCo-SLAM
 - A distributed multi-robot SLAM example for 3 robots.
 - The local SLAM used in our project is [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM), please download [the modified version of LIO-SAM](https://github.com/yeweihuang/LIO-SAM.git), and add the DiSCo-SKAM folder into ```LIO-SAM\src```.
-
-
-    .
+```
+ ├──LIO-SAM
     ├── ...
     ├── src                    
     │   ├── ...           
     │   └── DiSCo-SLAM                # Folder for multi-robot SLAM
     └── ...
+ ```
 - Code from [Scan Context]((https://github.com/irapkaist/scancontext)) is u[s]()ed for feature description.
 - We use code from [PCM](https://github.com/lajoiepy/robust_distributed_mapper/tree/d609f59658956e1b7fe06c786ed7d07776ecb426/cpp/src/pairwise_consistency_maximization) 
 for outlier detection.
