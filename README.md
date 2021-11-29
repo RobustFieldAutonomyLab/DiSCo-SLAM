@@ -1,5 +1,11 @@
 # DiSCo-SLAM
-- A distributed multi-robot SLAM example for 3 robots.
+
+**DiSCo-SLAM is a novel framework for distributed, multi-robot SLAM intended for use with 3D LiDAR observations. The framework is the first to use the lightweight Scan Context descriptor for multi-robot SLAM, permitting a data-efficient exchange of LiDAR observations among robots. Additionally, our framework includes a two-stage global and local optimization framework for distributed multi- robot SLAM which provides stable localization results that are resilient to the unknown initial conditions that typify the search for inter-robot loop closures.**
+
+<p align="center"><img src="doc/pipeline.pdf" width=900></p>
+
+## 
+ - Here we provide a distributed multi-robot SLAM example for 3 robots, intended for use with the two datasets provided below.
  - The local SLAM used in our project is [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM), please download [the modified version of LIO-SAM](https://github.com/yeweihuang/LIO-SAM.git), and add the DiSCo-SKAM folder into ```LIO-SAM\src```.
  ```
   ├──LIO-SAM
@@ -14,12 +20,12 @@
   cd LIO-SAM/src
   git clone git@github.com:RobustFieldAutonomyLab/DiSCo-SLAM.git
   ```
-- Code from [Scan Context]((https://github.com/irapkaist/scancontext)) is used for feature description.
+- Code from [Scan Context](https://github.com/irapkaist/scancontext) is used for feature description.
 - We use code from [PCM](https://github.com/lajoiepy/robust_distributed_mapper/tree/d609f59658956e1b7fe06c786ed7d07776ecb426/cpp/src/pairwise_consistency_maximization) 
 for outlier detection.
 
 
-## Dependency
+## Dependencies
 - Same dependencies as [LIO-SAM](https://github.com/TixiaoShan/LIO-SAM):
   - [ROS Melodic](http://wiki.ros.org/melodic#Installation)
   - [gtsam 4.0.2](https://github.com/borglab/gtsam/releases) (Georgia Tech Smoothing and Mapping library)
@@ -27,7 +33,7 @@ for outlier detection.
   - [libnabo 1.0.7](https://github.com/ethz-asl/libnabo/releases)
   
 
-## Dataset
+## Datasets
 
 - [The Park Dataset](https://drive.google.com/file/d/1B9-Rd7hd-hF_O_NDrmCrwz93ajs0dadw/view?usp=sharing)
 - [KITTI 08 Dataset](https://drive.google.com/file/d/1l0bQlp40Xc90ZuviMSsevNOKNEg3i1xP/view?usp=sharing)
