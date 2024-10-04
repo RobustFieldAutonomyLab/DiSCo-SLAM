@@ -35,8 +35,8 @@ for outlier detection.
 
 ## Datasets
 
-- [The Park Dataset](https://drive.google.com/file/d/1-2zsRSB_9ORQ9WQdtUbGdoS4YXU3cBQt/view?usp=sharing)
-- [KITTI 08 Dataset](https://drive.google.com/file/d/1U6z_1VHlPJa_DJ2i8VwxkKLjf5JxMo0f/view?usp=sharing)
+- [The Park Dataset](https://huggingface.co/datasets/yeweihuang/DiSCo-SLAM-Example-Dataset)
+- [KITTI 08 Dataset](https://huggingface.co/datasets/yeweihuang/DiSCo-SLAM-Example-Dataset)
 
 To run the KITTI08 dataset, change line 9 & 10 in launch/run.launch from
   ```
